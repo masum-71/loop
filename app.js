@@ -156,7 +156,7 @@ for (let row = 1; row <= 5; row++) {
 };
 
 
-             /************** */
+//              /************** */
 
 for (let row = 1; row <= 5; row++) {
     let star = '';
@@ -168,3 +168,35 @@ for (let row = 1; row <= 5; row++) {
     }
     console.log(star);
 };
+
+ for(let num = 1; num <= 5; num++){
+     let print = '';
+     for(let num1 = 1; num1 <= num; num1++){
+         print += num1;
+     }
+     console.log(print);
+ };
+
+ for(let num = 1; num <= 5; num++){
+     let print = '';
+     for(let star = 1; star <= num; star++){
+        print += '*';
+     }
+     console.log(print);
+ }
+
+ for(let num = 5; num >= 1; num--){
+     let print = '';
+     for(let star = 1; star <= num; star++){
+         print += '*';
+     }
+     console.log(print);
+ };
+
+ for (let num = 1; num <= 5; num++){
+     let sum = 0;
+     for(let num1 = 1; num1 <= num; num1++){
+         sum += num1;
+     }
+     console.log(sum);
+ }
